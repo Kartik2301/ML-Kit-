@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:id="@+id/textRecognize"
+        android:text="Text Recognization"
+        android:background="#80DEEA"
+        android:textAlignment="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:layout_below="@+id/textRecognize"
+        android:id="@+id/FaceDetection"
+        android:text="Face Detection"
+        android:background="#F44336"
+        android:textAlignment="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:id="@+id/BarcodeScan"
+        android:layout_below="@+id/FaceDetection"
+        android:text="Barcode Scanner"
+        android:background="#69F0AE"
+        android:textAlignment="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:id="@+id/ImageLabel"
+        android:layout_below="@+id/BarcodeScan"
+        android:text="Image Labeller"
+        android:background="#FFC107"
+        android:textAlignment="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:id="@+id/LandmarkDetection"
+        android:layout_below="@+id/ImageLabel"
+        android:text="Landmark Detector"
+        android:background="#A1887F"
+        android:textAlignment="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:id="@+id/LanguageDetection"
+        android:layout_below="@+id/LandmarkDetection"
+        android:text="Language Detection"
+        android:background="#EA80FC"
+        android:textAlignment="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:id="@+id/SmartReplies"
+        android:layout_below="@+id/LanguageDetection"
+        android:text="Generate Smart Replies"
+        android:background="#388E3C"
+        android:textAlignment="center" />
+
+</RelativeLayout>
+</ScrollView>
